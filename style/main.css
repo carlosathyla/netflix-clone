@@ -115,3 +115,25 @@ header nav a:hover {
 .carrosel-filmes {
     margin-top: 5px;
 }
+
+footer .contact_list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .contact_list li a {
+    color: white;
+    
+}
+
+footer .button{
+    background-color: none;
+    background: none;
+    border: none;
+}
+
+footer p {
+    text-align: center;
+    padding-bottom: 10px;
+}
