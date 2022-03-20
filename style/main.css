@@ -43,10 +43,6 @@ header nav a:hover {
 /* filme principal */
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("https://carlosathyla.github.io/netflix-clone/img/capa2-demonslayer.jpg"));
-
-    height: 400px;
-    background-size: cover;
 
     display: flex;
     flex-direction: column;
@@ -83,15 +79,11 @@ header nav a:hover {
 
 .botao a {
     color:white; 
-    text-decoration:none
+    text-decoration:none;
+    transition: .3s ease all;
 }
 
-.botao a:hover {
-    background-color: white;
-    color: black;
-}
-
-.botao:hover {
+.botao:hover, .botao a:hover {
     background-color: white;
     color: black;
 }
